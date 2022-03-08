@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "User-Agent",
+          "operation": "set",
+          "value": "NCBrowser"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "*",
+      "domains": [
+        "fkkkpbdgoeldfioijfaogimmpfbnojii"
+      ]
+    }
+  }
+]

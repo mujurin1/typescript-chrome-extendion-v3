@@ -1,0 +1,17 @@
+# node packages
+node_modules
+
+# cache files
+.npm
+.eslintcache
+
+# dotenv variables
+.env
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# dist
+dist/*

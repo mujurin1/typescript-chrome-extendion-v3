@@ -1,0 +1,16 @@
+//see https://stackoverflow.com/questions/53558916/babel-7-referenceerror-regeneratorruntime-is-not-defined/54490329#54490329
+
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+            "useBuiltIns": "usage", // alternative mode: "entry"
+            "corejs": 3, // default would be 2
+            "targets": "> 0.25%, not dead" 
+            // set your own target environment here (see Browserslist)
+            }
+        ]
+        ]
+}
+
